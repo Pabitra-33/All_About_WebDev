@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First HTML Form</title>
+</head>
+<body>
+    <section>
+        <form>
+            <div align="start">
+                <h1><u>Registration Form</u></h1>
+            </div>
+            <div>
+               <label for="fname">First Name:</label>
+               <input type="text" id="fname" name="fname" placeholder="Enter First Name" required>
+            </div>
+            <br>
+    
+            <div>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Enter Last Name" required>
+            </div>
+            <br>
+    
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="pass" placeholder="Enter Password" maxlength="12" required>
+            </div>
+            <br>
+    
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="SProads12@gmail.com" required>
+            </div>
+            <br>
+    
+            <div>
+                <label for="phone">Phone #:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" required>
+            </div>
+            <br>
+    
+            <div>
+                <label for="dob">BirthDate:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <br>
+    
+            <div>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="0" max="99" value="1">
+            </div>
+            <br>
+    
+            <div>
+                <label for="Range">Range:</label>
+                <input type="range" id="range" name="range">
+            </div>
+            <br>
+    
+            <div>
+                <label for="title">Title:</label>
+    
+                <label for="Mr.">Mr.</label>
+                <input type="radio" id="Mr." name="title">
+    
+                <label for="Mrs.">Mrs.</label>
+                <input type="radio" id="Mrs." name="title">
+    
+                <label for="PhD.">PhD.</label>
+                <input type="radio" id="PhD." name="title">
+            </div>
+            <br>
+    
+            <div>
+                <label for="lang">Languages:</label>
+    
+                <label for="hindi">Hindi</label>
+                <input type="checkbox">
+    
+                <label for="Odia">Odia</label>
+                <input type="checkbox">
+    
+                <label for="Kannada">Kannada</label>
+                <input type="checkbox">
+    
+                <label for="english">English</label>
+                <input type="checkbox">
+            </div>
+            <br>
+    
+            <div>
+                <label for="docs">Document:</label>
+                <input type="file" id="docs" name="docs">
+            </div>
+            <br>
+    
+            <div>
+                <label for="payment">Payment:</label>
+                <select type="payment" id="payment" name="payment">
+                    <option value="select">Select</option>
+                    <option value="Visa">Visa</option>
+                    <option value="Mastercard">Mastercard</option>
+                    <option value="Giftcard">Giftcard</option>
+                </select>
+            </div>
+            <br>
+    
+            <div>
+                <button type="submit" style="background-color: chartreuse;">Submit</button>
+                <button type="reset" style="background-color: red;">Reset</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
