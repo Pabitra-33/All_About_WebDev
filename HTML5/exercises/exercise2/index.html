@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Reservation Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1 align="center"><img src="./logo.png" alt="image not found" height="70px"><u>Travel Reservation Company</u> <img src="./logo.png" alt="image not found" height="70px"></h1>
+        <h4 align="center">Kindly fill up the below forms, * denotes mandatory</h4>
+    </div>
+    <div align="center">
+        <label for="fullname">FullName*:</label>
+        <input type="text" placeholder="FirstName LastName" required><br><br>
+
+        <label for="email">Email address*:</label>
+        <input type="email" placeholder="Email_Address" required><br><br>
+
+        <label for="tour">Select Tour Package*:</label>
+        <select name="tour">
+            <option value="Goa">Goa</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Kerla">Kerla</option>
+        </select><br><br>
+
+        <label for="arrival">Arrival Date*:</label>
+        <input type="date" required><br><br>
+
+        <label for="noofperson">Number of Persons*:</label>
+        <input type="text" placeholder="Unknown-type" required><br><br>
+
+        <label for="avail">What you want to avail?*:</label><br>
+        <input type="checkbox" required>Boarding <br>
+        <input type="checkbox" required>Fooding<br>
+        <input type="checkbox" required>Side Seeing<br><br>
+
+        <label for="discount">Discount Cupon Code*:</label>
+        <input type="text" placeholder="Unknown-type" required><br><br>
+
+        <label for="terms">Terms and Conditions*:</label>
+        <input type="radio" name="radio" required>I agree<br>
+        <input type="radio" name="radio" required>I disagree<br><br>
+
+        <button type="submit">Complete Registration</button>
+    </div>
+    
+</body>
+</html>
