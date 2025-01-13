@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="shortcut icon" href="./tempFavicon.png" type="image/x-icon">
+</head>
+<body>
+    <div align="center">
+        <u><h1>Temperature Converter</h1></u>
+        <form>
+            <label for="value">Value:</label>
+            <input type="number" id="value" name="value"><br><br>
+
+            <label for="from">From:</label>
+            <select id="from" name="from">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select><br><br>
+
+            <label for="to">To:</label>
+            <select id="to" name="to">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select><br><br>
+
+            <input type="button" value="Convert" onclick="convert()"><br><br>
+            <label for="result">Result:</label>
+            <input type="text" id="result" name="result"><br><br>
+        </form>
+    </div>
+
+    <script>
+        function convert() {
+            var value = parseFloat(document.getElementById("value").value);
+            var from = document.getElementById("from").value;
+            var to = document.getElementById("to").value;
+
+            var result;
+
+            switch(from) {
+                case "celsius":
+                    switch(to) {
+                        case "celsius":
+                            result = value;
+                            break;
+                        case "fahrenheit":
+                            result = (value * 1.8) + 32;
+                            break;
+                        case "kelvin":
+                            result = value + 273.15;
+                            break;
+                    }
+                    break;
+                case "fahrenheit":
+                    switch(to) {
+                        case "celsius":
+                            result = (value - 32) / 1.8;
+                            break;
+                        case "fahrenheit":
+                            result = value;
+                            break;
+                        case "kelvin":
+                            result = (value + 459.67) / 1.8;
+                            break;
+                    }
+                    break;
+                case "kelvin":
+                    switch(to) {
+                        case "celsius":
+                            result = value - 273.15;
+                            break;
+                        case "fahrenheit":
+                            result = (value * 1.8) - 459.67;
+                            break;
+                        case "kelvin":
+                            result = value;
+                            break;
+                    }
+                    break;
+            }
+
+            document.getElementById("result").value = result.toFixed(2);
+        }
+    </script>
+</body>
+</html>
