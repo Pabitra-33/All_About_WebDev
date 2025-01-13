@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <!--favicon file-->
+    <link rel="icon" href="./unitFavicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <div align="center">
+        <h1><u>Unit Converter</u></h1>
+      <form>
+        <label for="value">Value:</label>
+        <input type="number" id="value" name="value"><br><br>
+        <label for="from">From:</label>
+        <select id="from" name="from">
+            <option value="meter">Meter</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="mile">Mile</option>
+            <option value="yard">Yard</option>
+            <option value="foot">Foot</option>
+            <option value="inch">Inch</option>
+        </select><br><br>
+        <label for="to">To:</label>
+        <select id="to" name="to">
+            <option value="meter">Meter</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="mile">Mile</option>
+            <option value="yard">Yard</option>
+            <option value="foot">Foot</option>
+            <option value="inch">Inch</option>
+        </select><br><br>
+        <input type="button" value="Convert" onclick="convert()"><br><br>
+        <label for="result">Result:</label>
+        <input type="text" id="result" name="result"><br><br>
+      </form>
+    </div>
+
+    <script>
+        function convert() {
+            var value = parseFloat(document.getElementById("value").value);
+            var from = document.getElementById("from").value;
+            var to = document.getElementById("to").value;
+
+            var meters;
+
+            switch(from) {
+                case "meter":
+                    meters = value;
+                    break;
+                case "kilometer":
+                    meters = value * 1000;
+                    break;
+                case "mile":
+                    meters = value * 1609.34;
+                    break;
+                case "yard":
+                    meters = value * 0.9144;
+                    break;
+                case "foot":
+                    meters = value * 0.3048;
+                    break;
+                case "inch":
+                    meters = value * 0.0254;
+                    break;
+            }
+
+            var result;
+
+            switch(to) {
+                case "meter":
+                    result = meters;
+                    break;
+                case "kilometer":
+                    result = meters / 1000;
+                    break;
+                case "mile":
+                    result = meters / 1609.34;
+                    break;
+                case "yard":
+                    result = meters / 0.9144;
+                    break;
+                case "foot":
+                    result = meters / 0.3048;
+                    break;
+                case "inch":
+                    result = meters / 0.0254;
+                    break;
+            }
+            document.getElementById("result").value = result.toFixed(2);
+        }
+    </script>
+</body>
+</html>
