@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div align="center">
+        <h1><u>Calculator</u></h1>
+      <form>
+        <!--used inline javascript to perform the operations-->
+        <label for="num1">First Number:</label>
+        <input type="number" id="num1" name="num1"><br><br>
+
+        <label for="num2">Second Number:</label>
+        <input type="number" id="num2" name="num2"><br><br>
+
+        <input type="button" value="+" onclick="document.getElementById('result').value = parseInt(document.getElementById('num1').value) + parseInt(document.getElementById('num2').value)">
+
+        <input type="button" value="-" onclick="document.getElementById('result').value = parseInt(document.getElementById('num1').value) - parseInt(document.getElementById('num2').value)">
+
+        <input type="button" value="*" onclick="document.getElementById('result').value = parseInt(document.getElementById('num1').value) * parseInt(document.getElementById('num2').value)">
+
+        <input type="button" value="/" onclick="document.getElementById('result').value = parseInt(document.getElementById('num1').value) / parseInt(document.getElementById('num2').value)">
+
+        <input type="button" value="%" onclick="document.getElementById('result').value = parseInt(document.getElementById('num1').value) % parseInt(document.getElementById('num2').value)"><br><br>
+
+        <label for="result">Result:</label>
+        <input type="text" id="result" name="result"><br><br>
+      </form>
+    </div>
+</body>
+</html>
