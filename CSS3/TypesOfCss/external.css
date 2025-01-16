@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 9px;
+}
+h1{
+    color: lawngreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    color: red;
+}
+button{
+    background-color: black;
+    color: white;
+}
