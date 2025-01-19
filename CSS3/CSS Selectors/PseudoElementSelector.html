@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo Element Selector</title>
+    <style>
+        h1::first-letter{
+            color: orange;
+        }
+        p::before{
+            content: "This is Mohan!:) ";
+        }
+        p::after{
+            content: "This is Dhruva Kumar!:) ";
+        }
+        p::first-line{
+            color: blue;
+        }
+        p::selection{
+            background-color: blueviolet;
+            color: white;
+        }
+        span{
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Js<span>p</span>iders</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tempora sunt tempore ut, sapiente asperiores cum ducimus accusamus molestiae odio vero quaerat aliquid debitis ipsam! Quos aut incidunt odit assumenda.
+    Quis enim fugit, eius suscipit dicta consequatur. Ratione nemo ipsum neque eveniet pariatur vero, nesciunt autem doloremque, fuga mollitia culpa inventore commodi tempora voluptates optio ea blanditiis, ullam ab. Corporis.
+    Saepe excepturi et facilis quaerat.<span> Harum, aliquid adipisci dolores, dolorum pariatur excepturi ducimus dolorem quisquam culpa blanditiis voluptas nisi illo in ipsa perferendis corporis modi quam nostrum? Mollitia, fugit obcaecati.
+    Modi rem nostrum illo sit incidunt. Saepe exercitationem sint vel!</span> Aliquid vel placeat quidem maxime in harum eaque odit omnis, accusamus debitis voluptas sint error dolorum! Illo fuga animi sint.
+    Similique libero quidem, eius error provident tenetur, dignissimos fugit at eligendi rerum deleniti. Sequi saepe dicta architecto dignissimos! Placeat optio asperiores, quisquam esse eius vel aperiam voluptates praesentium magni excepturi.</p>
+</body>
+</html>
