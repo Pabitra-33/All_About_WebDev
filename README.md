@@ -10,6 +10,16 @@ This repository contains all my practice files for web development, focusing on 
 
 ---
 
+## How to Use This Repository  
+
+1. **Clone the Repository**:  
+   git clone (https://github.com/Pabitra-33/All_About_WebDev).git <br>
+   cd web-dev-practice
+2. **Open Files in a Code Editor**: Use an editor like Visual Studio Code to explore and modify the code.  
+3. **Run the Examples**: Open the HTML files in a browser to see the output.  
+
+---
+
 
 ## Repository Structure  
 
