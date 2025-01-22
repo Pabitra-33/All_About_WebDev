@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #ffffff url("img_tree.png") no-repeat right top;
+    margin-right: 100px;
+}
