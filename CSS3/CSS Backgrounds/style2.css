@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../../Images/nightbg.jpg);
+}
+
+h1,p {
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 30px;
+}
