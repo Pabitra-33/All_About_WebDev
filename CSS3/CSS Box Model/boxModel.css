@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: navy;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color: inherit;
+    font-weight: 700;
+}
+
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: inset;
+}
