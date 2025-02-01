@@ -1,0 +1,45 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border-example {  
+    width: 150px;   
+    height: 30px;   
+    margin: 10px;  
+    padding: 10px;  
+}  
+
+.dotted {  
+    border: 2px dotted #FFA500;  
+}  
+
+.dashed {  
+    border: 2px dashed #008000;  
+}  
+
+.solid {  
+    border: 2px solid #000;  
+}  
+
+.double {  
+    border: 4px double #FF0000;  
+}  
+
+.groove {  
+    border: 3px groove #3333FF;  
+}  
+
+.ridge {  
+    border: 3px ridge #660066;  
+}  
+
+.inset {  
+    border: 3px inset #006600;  
+}  
+
+.outset {  
+    border: 3px outset #990000;  
+}  
