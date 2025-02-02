@@ -1,0 +1,13 @@
+body {  
+    text-align: center;  
+}  
+    
+/* Change the cursor color to red */  
+input[type="text"] {  
+    caret-color: red;  
+}  
+      
+/* Change the cursor color to blue */  
+input[type="email"] {  
+    caret-color: blue;  
+}  
