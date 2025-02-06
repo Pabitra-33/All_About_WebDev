@@ -1,5 +1,6 @@
 # Web Development Practice Repository 🌐
-This repository contains all my practice files for web development, focusing on the foundational technologies and frameworks of modern front-end development. The goal is to demonstrate hands-on learning and experimentation with **HTML**, **CSS**, **JavaScript**, and **Bootstrap**. Below is a detailed overview of the repository structure and content.  
+This repository contains all my practice files for web development, focusing on the foundational technologies and frameworks of modern front-end development. The goal is to demonstrate hands-on learning and experimentation with **HTML**, **CSS**, **JavaScript**, and **Bootstrap**. 
+Below is a detailed overview of the repository structure and content.  
 
 ## Features of the Repository  
 
