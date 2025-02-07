@@ -1,0 +1,28 @@
+/* */
+p {
+    font-size: 16px;
+    line-height: 2em;
+}
+  
+div {
+    font-size: 30px;
+    border: 1px solid black;
+}
+  
+span {
+    font-size: 0.5em;
+}
+/* unit:rem*/
+html {
+    font-size:16px;
+  }
+  
+  div {
+    font-size: 3rem;
+    border: 1px solid black;
+  }
+  
+  #top-div {
+    font-size: 2rem;
+    border: 1px solid red;
+  }
