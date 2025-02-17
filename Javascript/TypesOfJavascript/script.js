@@ -1,0 +1,2 @@
+console.log("Welcome to the use of External Javascript");
+//here we are using a external javascript file to write javascript code and connect it to the html document with the help of scr attribute inside the script tag.
