@@ -1,14 +1,16 @@
-# Web Development Practice Repository 🌐
-This repository contains all my practice files for web development, focusing on the foundational technologies and frameworks of modern front-end development. The goal is to demonstrate hands-on learning and experimentation with **HTML**, **CSS**, **JavaScript**, and **Bootstrap**. 
-Below is a detailed overview of the repository structure and content.  
-
-## Features of the Repository  
-
-- **Well-Organized Structure**: Files are grouped by topic for easy navigation.  
-- **Comprehensive Examples**: Each file is designed to demonstrate a specific concept or technique.  
-- **Code Comments**: Inline comments explain the purpose of code snippets for better understanding.  
-- **Learning-Oriented**: Ideal for beginners and intermediate developers practicing and experimenting with web development concepts.  
-
+# CodeCanvas 👨‍💻🌐
+## A Comprehensive Web Development Practice Repository
+- CodeCanvas is a dedicated repository for practicing and mastering web development concepts using HTML, CSS, JavaScript, and Bootstrap. It serves as a learning hub for experimenting with front-end technologies, improving UI/UX skills, and building responsive web designs.
+- This repository contains all my practice files for web development, focusing on the foundational technologies and frameworks of modern front-end development. The goal is to demonstrate hands-on learning and experimentation with **HTML**, **CSS**, **JavaScript**, and **Bootstrap**. 
+Below is a detailed overview of the repository structure and content:
+## Key Features:
+✅ Structured Learning – Covers fundamental to advanced HTML, CSS, JavaScript, and Bootstrap concepts.<br>
+✅ Responsive Design Practice – Implement mobile-friendly layouts with Bootstrap grid systems and media queries.<br>
+✅ Interactive Web Elements – Enhance user experience with JavaScript-driven animations, form validation, and dynamic content updates.<br>
+✅ Component-Based Approach – Develop reusable UI components for buttons, modals, navigation bars, and more.<br>
+✅ Hands-on Projects & Mini Challenges – Strengthen skills through real-world exercises and small web projects.<br>
+✅ Best Practices & Optimization – Learn clean coding standards, SEO basics, and performance improvements.<br>
+  
 ---
 
 ## How to Use This Repository  
