@@ -1,0 +1,31 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Operators </title>
+    <script>
+        Logical();
+        function Logical()
+        {
+            let a = 7;
+            let b = 4;
+            console.log(a<b && a++>2);//false, so 2nd expression won't execute.
+            console.log(a);//7
+            console.log(b);//4
+            console.log("-----Bitwise Operation------")
+            Bitwise();
+        }
+        
+        function Bitwise()
+        {
+            let x = 5;
+            let y = 6;
+            console.log(x & y);
+            console.log(x | y);
+            console.log(x ^ y);
+        }
+    </script>
+</head>
+<body>
+    <h1>Logical Operators in Js</h1>
+</body>
+</html>
