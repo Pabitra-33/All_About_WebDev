@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-Input Type Test</title>
+    <script>
+        addTwoValue();
+        function addTwoValue() {
+            //prompt function always takes the input in String format.
+            //so to change it to number we need to use Constructor number.
+            let n1 = Number(prompt("Enter first number: "));
+            let n2 = Number(prompt("Enter second number: "));
+
+            console.log(`${n1} + ${n2} = ${n1+n2}`);
+        }
+    </script>
+</head>
+<body>
+    <h1>Javascript User-Input Type Test</h1>
+</body>
+</html>
