@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Test</title>
+    <script>
+        input();//function declaration is hoisted, so we can call before decalaration
+        function input(){
+            let userName = prompt("Enter UserName:");
+            console.log("Entered UserName is: "+ userName);
+
+            let passWord =  prompt("Enter Password: ");
+            console.log("Entered Password by the user is: "+ passWord);
+        }
+    </script>
+</head>
+<body>
+    <h1>Javascript User-Input</h1>
+</body>
+</html>
