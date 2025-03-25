@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript This Value</title>
+    <script>
+        "use strict";
+        let a = 10;
+        console.log(a);//10
+        
+        //global variable, so it refers to refers to window object.
+        let thisVal = this;
+        console.log(thisVal);//window object
+
+        //function declaration
+        function main() {
+            let obj1 = this;//without strict mode --"window object", with normal mode --"undefined".
+            console.log(obj1);
+        }
+        main();
+
+        //function expression
+        let m1 = function() {
+            let obj2 = this;//without strict mode --"window object", with normal mode --"undefined".
+            console.log(obj2);
+        }
+        m1();
+
+        //arrow function and it's this keyword value
+        let m2 = () => {
+            let obj3 = this;//Arrow function does not conatin it's own value, it takes it from it's parent scope.
+            console.log(obj3);
+        }
+    </script>
+</head>
+<body>
+    <h1>Javascript This Keyword Use and Value</h1>
+</body>
+</html>
