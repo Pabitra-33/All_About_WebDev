@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects in Javascript</title>
+    <script>
+        let student = {
+            studId:"JSP101",
+            firstName:"Prabhas",
+            lastName:"Raju",
+            fullName:"Prabhas Raju",
+            birthYear:2000,
+            calcAge:function() {
+                console.log(this);//student object
+                let d1 = new Date();
+                let currYear = d1.getFullYear();//return the current year
+                let age = currYear - this.birthYear;//calculate the age
+                console.log(age);
+            }
+        };
+        student.calcAge();   
+    </script>
+</head>
+<body>
+    <h1>Object Literal in Javascript</h1>
+</body>
+</html>
