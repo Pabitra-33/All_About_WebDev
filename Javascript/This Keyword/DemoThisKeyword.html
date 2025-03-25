@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Keyword in Javascript</title>
+    <script>
+        const test = {
+            prop: 42,
+            func: function () {
+                return this.prop;//Here this is in a method so, it refers to current object.
+            },
+        };
+        console.log(test.func());//Directly we are printing.
+        let res = test.func();//the func is returning a value, so we can store it and use it later.
+        console.log(res);// Expected output: 42
+    </script>
+</head>
+<body>
+    <h3>Demo This Keyword Use in JavaScript</h3>
+</body>
+</html>
