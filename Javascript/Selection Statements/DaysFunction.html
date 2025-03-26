@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Find The Days</title>
+    <script>
+        let dt = new Date();
+        let dayNo = dt.getDay();// It is used to give the current day in number form.
+        //let dateNo = dt.getDate(); It is used to give the current date only.
+        let trans = "Transaction happend on ";
+
+        if(dayNo == 0) trans +="Sunday";
+        else if(dayNo == 1) trans +="Monday";
+        else if(dayNo == 2) trans +="Tuesday";
+        else if(dayNo == 3) trans +="Wednesday";
+        else if(dayNo == 4) trans +="Thursday";
+        else if(dayNo == 5) trans +="Friday";
+        else if(dayNo == 6) trans +="Saturday";
+        else console.log("Invalid day input");
+        console.log(trans);
+    </script>
+</head>
+<body>
+    <h1>A Dynamic Program to find out the Days.</h1>
+</body>
+</html>
