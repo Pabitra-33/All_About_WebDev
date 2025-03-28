@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Scope</title>
+    <script>
+        let  counter;
+        console.log(counter); //->undefined
+        {
+            counter = 1;//initialized
+            {
+                console.log(counter);//-> 1
+            }
+        }
+        counter = counter  +  1;
+        console.log(counter); //->2
+    </script>
+</head>
+<body>
+    <h1>Javascript Scopes(Global, Block and Local Scopes).</h1>
+</body>
+</html>
