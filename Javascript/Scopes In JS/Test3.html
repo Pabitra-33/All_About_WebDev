@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Scope</title>
+    <script>
+        let  height = 200;
+        {
+            let weight = 100;
+            {
+                let  info = "tall";
+                console.log(height);//  ->  200
+                console.log(weight);//  ->  100
+                console.log(info);//  ->  tall
+            }
+            console.log(height);//  ->  200
+            console.log(weight);//  ->  100
+            console.log(info);//  ->  Uncaught  ReferenceError:  info  is  not  defined
+        }
+    </script>
+</head>
+<body>
+    <h1>Javascript Scopes(Global, Block and Local Scopes).</h1>
+</body>
+</html>
