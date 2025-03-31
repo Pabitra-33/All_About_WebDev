@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Scope</title>
+    <script>
+        //Declaring a variable can be accessible as it is not a block scope, it's a function scope
+        var  height  =  180;
+        {
+            var  weight  =  70;
+            console.log(height);  //  ->  180
+            console.log(weight);  //  ->  70	
+        }
+        console.log(height);  //  ->  180
+        console.log(weight);  //  ->  70
+    </script>
+</head>
+<body>
+    <h1>Javascript Scopes(Global, Block and Local Scopes).</h1>
+</body>
+</html>
