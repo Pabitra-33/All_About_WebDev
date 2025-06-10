@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexical Environment in Javascript</title>
+</head>
+<body>
+    <h1>Performing Lexical Scope Environment</h1>
+    <script>
+        function outer() {
+            var x = 10;
+            function inner() {
+                
+                //The lexical environment of `inner()`contains the variable`x`from `outer()`.
+                console.log(x);
+            }
+            inner();
+        }
+        outer();
+    </script>
+</body>
+</html>
