@@ -1,4 +1,5 @@
 # CodeCanvas 👨‍💻🌐
+
 ### A Comprehensive Web Development Practice Repository
 - CodeCanvas is basically a dedicated repository for practicing and mastering all the web development concepts using HTML, CSS, JavaScript, and Bootstrap.
 - It serves as a learning hub for experimenting with front-end technologies, improving UI/UX skills, and building responsive web designs.
@@ -16,7 +17,7 @@ Below is a detailed overview of the repository structure and content:
   
 ---
 
-## 📂How to Use This Repository 
+## 📂How to Use This Repository
 
 1. **Clone the Repository**:  
    git clone (https://github.com/Pabitra-33/All_About_WebDev).git <br>
@@ -27,7 +28,7 @@ Below is a detailed overview of the repository structure and content:
 ---
 
 
-## Repository Structure  
+## Repository Structure
 
 ### 1. **HTML Practice**  
    - **Description**: Files in this section focus on mastering HTML, the backbone of web content.  
@@ -96,5 +97,3 @@ Below is a detailed overview of the repository structure and content:
 ---
 
 Feel free to use this repository for learning, experimenting, or building small projects. Contributions and suggestions are welcome!  
-
-
