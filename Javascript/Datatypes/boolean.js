@@ -5,4 +5,4 @@ function main() {
     console.log(hasDrivingLic, typeof hasDrivingLic);
     console.log(passTest, typeof passTest);
 }
-main();
+main();//function calling
