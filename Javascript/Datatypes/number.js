@@ -7,4 +7,4 @@ function main() {
     console.log(n);
     console.log(typeof n);
 }
-main();
+main();//function call
