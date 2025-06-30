@@ -5,4 +5,4 @@ let bf = "Javascript";
 console.log(typeof bf);
         
 let n = null;
-console.log(typeof n);
+console.log(typeof n); //checking the type of data
